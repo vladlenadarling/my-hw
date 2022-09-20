@@ -13,3 +13,14 @@ void CheckMass(string[] mass1, string[] mass2)
         }
     }
 }
+CheckMass(mass1, mass2);
+
+void PrintMass(string[] mass)
+{
+    for (int i = 0; i < mass2.Length; i++)
+    {
+        Console.Write($"{mass2[i]} ");
+    }
+}
+
+PrintMass(mass2);
